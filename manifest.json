@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "My New Tab",
+  "version": "1.0",
+  "description": "New tab.",
+
+  "permissions": ["storage"],
+
+  "icons": {
+    "48": "favicon.png"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+
+}
